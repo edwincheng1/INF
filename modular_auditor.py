@@ -1,8 +1,19 @@
 stock = 0
 failed = 0
+deliveries = 0
 
 def get_valid_input():
-    p = 1
+    stockinput = input("Input stock quantity or type 'quit': ")
+    if stockinput.lower() == "quit":
+        return "quit"
+    elif stockinput.startswith("-"):
+        print("Invalid input. Please enter a positive number.")
+        return "Invalid"
+    elif not stockinput.isdigit():
+        print("Invalid input. Please enter an integer.")    
+        return "Invalid"
+    else:
+        return int(stockinput)
 
 def process_delivery(current_total, new_value):
     new_value = new_value + current_total
@@ -18,20 +29,18 @@ def generate_report(total_units, failed_attempts):
     print("Number of Failed/Rejected Entries:", failed_attempts)
 
 while True:
-    stockinput = input("Input stock quantity or type 'quit': ")
-    if stockinput.lower() == "quit":
+    stockinput = get_valid_input()
+    if stockinput == "quit":
         generate_report(stock, failed)
         break
-    elif stockinput.startswith("-"):
+    elif stockinput == "Invalid":
         print("Invalid input. Please enter a positive number.")
         failed += 1
-    elif not stockinput.isdigit():
-        print("Invalid input. Please enter an integer.")
-        failed += 1
+
     else:
-        stockcount = int(stockinput)
-        stock = stock + stockcount
-        calculate_tax(stockcount)
+        stock = process_delivery(stock, stockinput)
+        tax = calculate_tax(stockinput)
+        deliveries = deliveries + 1
         if stock > 0:
             print("Number of deliveries processed:", stock)
-            print("Tax:",calculate_tax(stockcount))
+            print("Tax:",calculate_tax(stockinput))

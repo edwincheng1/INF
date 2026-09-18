@@ -34,7 +34,6 @@ while True:
         generate_report(stock, failed)
         break
     elif stockinput == "Invalid":
-        print("Invalid input. Please enter a positive number.")
         failed += 1
 
     else:

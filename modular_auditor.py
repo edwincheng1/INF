@@ -42,5 +42,5 @@ while True:
         tax = calculate_tax(stockinput)
         deliveries = deliveries + 1
         if stock > 0:
-            print("Number of deliveries processed:", stock)
+            print("Number of deliveries processed:", deliveries)
             print("Tax:",calculate_tax(stockinput))

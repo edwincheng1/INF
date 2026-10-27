@@ -162,6 +162,6 @@ def main():
             print("\nError. Please enter option 1 to 6.\n")
 
 print('')
-
+print('')
 if __name__ == "__main__":
     main()

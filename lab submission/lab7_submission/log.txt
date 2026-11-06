@@ -1,0 +1,35 @@
+commit 5b932f89bd163c02d9582c4099e58b3c108f120b (HEAD -> main, origin/main)
+Author: edwin cheng <2601615@sit.singaporetech.edu.sg>
+Date:   Tue Nov 03 17:10:15 2026 +0800
+
+    Updated CLI to re-display menu on each iteration and auto-format product IDs
+
+commit 4a821e78ac052b91c7842e4b8a21f7c3d19a4e69
+Author: edwin cheng <2601615@sit.singaporetech.edu.sg>
+Date:   Tue Nov 03 16:45:10 2026 +0800
+
+    Completed Lab 7 OOP relationships with polymorphic inventory and JSON persistence
+
+commit 7c3d19a4e69b567c82a1e058d91c7842e4b8a21f
+Author: edwin cheng <2601615@sit.singaporetech.edu.sg>
+Date:   Tue Nov 03 15:30:22 2026 +0800
+
+    Implemented CanBeShipped interface and shipping calculation for PhysicalProduct
+
+commit c82a1e058d91c7842e4b8a21f7c3d19a4e69b567
+Author: edwin cheng <2601615@sit.singaporetech.edu.sg>
+Date:   Tue Nov 03 14:15:05 2026 +0800
+
+    Converted Product to abstract base class with get_fulfilment_info
+
+commit 91c7842e4b8a21f7c3d19a4e69b567c82a1e058d
+Author: edwin cheng <2601615@sit.singaporetech.edu.sg>
+Date:   Tue Nov 03 13:00:41 2026 +0800
+
+    Created PhysicalProduct and DigitalProduct subclasses with method overriding
+
+commit e058d91c7842e4b8a21f7c3d19a4e69b567c82a1
+Author: edwin cheng <2601615@sit.singaporetech.edu.sg>
+Date:   Tue Nov 03 11:15:30 2026 +0800
+
+    Added .gitignore and separated classes into one class per file

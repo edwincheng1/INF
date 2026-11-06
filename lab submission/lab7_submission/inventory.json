@@ -1,0 +1,98 @@
+[
+    {
+        "type": "physical",
+        "id": "P001",
+        "name": "Laptop",
+        "price": 1200.0,
+        "stock": 15,
+        "weight": 2.5
+    },
+    {
+        "type": "physical",
+        "id": "P002",
+        "name": "Mouse",
+        "price": 25.5,
+        "stock": 50,
+        "weight": 0.15
+    },
+    {
+        "type": "physical",
+        "id": "P003",
+        "name": "Keyboard",
+        "price": 45.0,
+        "stock": 25,
+        "weight": 0.8
+    },
+    {
+        "type": "physical",
+        "id": "P004",
+        "name": "Monitor",
+        "price": 299.99,
+        "stock": 10,
+        "weight": 4.2
+    },
+    {
+        "type": "digital",
+        "id": "D001",
+        "name": "Operating System",
+        "price": 199.99,
+        "stock": 100,
+        "download_size": 4500.0
+    },
+    {
+        "type": "digital",
+        "id": "D002",
+        "name": "Antivirus",
+        "price": 49.99,
+        "stock": 200,
+        "download_size": 350.0
+    },
+    {
+        "type": "physical",
+        "id": "P005",
+        "name": "Webcam",
+        "price": 100.0,
+        "stock": 50,
+        "weight": 0.5
+    },
+    {
+        "type": "digital",
+        "id": "D003",
+        "name": "Software",
+        "price": 49.9,
+        "stock": 100,
+        "download_size": 230.0
+    },
+    {
+        "type": "physical",
+        "id": "P006",
+        "name": "Fan",
+        "price": 20.0,
+        "stock": 100,
+        "weight": 1.0
+    },
+    {
+        "type": "digital",
+        "id": "D004",
+        "name": "Drivers",
+        "price": 0.1,
+        "stock": 10000,
+        "download_size": 200.0
+    },
+    {
+        "type": "physical",
+        "id": "P007",
+        "name": "Cooler",
+        "price": 20.0,
+        "stock": 100,
+        "weight": 2.0
+    },
+    {
+        "type": "digital",
+        "id": "D005",
+        "name": "Game",
+        "price": 59.99,
+        "stock": 20000,
+        "download_size": 1000.0
+    }
+]

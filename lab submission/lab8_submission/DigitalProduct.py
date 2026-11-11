@@ -1,7 +1,6 @@
 from Product import Product
 from Supplier import Supplier
 
-
 class DigitalProduct(Product):
     def __init__(self, product_id: str, name: str, price: float, stock: int, download_size: float, supplier: Supplier):
         super().__init__(product_id, name, price, stock, supplier)
@@ -23,8 +22,5 @@ class DigitalProduct(Product):
 
     def to_dict(self) -> dict:
         base = super().to_dict()
-        base.update({
-            "type": "digital",
-            "download_size": self._download_size
-        })
+        base.update({"type": "digital","download_size": self._download_size})
         return base

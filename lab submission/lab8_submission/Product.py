@@ -10,6 +10,22 @@ class Product(ABC):
         self._stock: int = stock
         self.supplier: Supplier = supplier
 
+    @property
+    def price(self) -> float:
+        return self._price
+
+    @property
+    def product_id(self) -> str:
+        return self._product_id
+
+    @property
+    def name(self) -> str:
+        return self._name
+
+    @property
+    def stock(self) -> int:
+        return self._stock
+
     def get_product_id(self) -> str:
         return self._product_id
 

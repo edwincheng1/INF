@@ -8,6 +8,10 @@ class PhysicalProduct(Product, CanBeShipped):
         super().__init__(product_id, name, price, stock, supplier)
         self._weight: float = weight
 
+    @property
+    def weight(self) -> float:
+        return self._weight
+
     def get_weight(self) -> float:
         return self._weight
 

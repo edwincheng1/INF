@@ -7,6 +7,10 @@ class DigitalProduct(Product):
         super().__init__(product_id, name, price, stock, supplier)
         self._download_size: float = download_size
 
+    @property
+    def download_size(self) -> float:
+        return self._download_size
+
     def get_download_size(self) -> float:
         return self._download_size
 

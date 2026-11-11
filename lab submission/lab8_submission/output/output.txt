@@ -1,0 +1,462 @@
+PS C:\Users\edwin\OneDrive\Desktop\School\Tri 1\INF\lab submission\lab8_submission> docker run --rm -it lab_8
+==============================================
+INVENTORY MANAGEMENT SYSTEM (LAB 8)
+==============================================
+
+inventory.json found.
+Inventory loaded successfully.
+
+-------------MENU-------------
+1. Display All Products
+2. Add Product
+3. Update Stock
+4. Search Product
+5. Remove Product
+6. Create Customer Order
+7. Save Inventory
+8. Exit
+--------------------------
+Enter option: 1
+
+Current Inventory
+---------------------------------------------
+ID: P001 | Name: Laptop | Price: $1200.00 | Stock: 15 | Supplier: Global Tech Distribution | Weight: 2.5kg
+ID: P002 | Name: Mouse | Price: $25.50 | Stock: 50 | Supplier: Prime Hardware Supplies | Weight: 0.15kg
+ID: P003 | Name: Keyboard | Price: $45.00 | Stock: 25 | Supplier: Prime Hardware Supplies | Weight: 0.8kg
+ID: P004 | Name: Monitor | Price: $299.99 | Stock: 10 | Supplier: Global Tech Distribution | Weight: 4.2kg
+ID: D001 | Name: Operating System | Price: $199.99 | Stock: 100 | Supplier: Digital Soft Distributors | Download Size: 4500.0MB
+ID: D002 | Name: Antivirus | Price: $49.99 | Stock: 200 | Supplier: Digital Soft Distributors | Download Size: 350.0MB
+---------------------------------------------
+
+-------------MENU-------------
+1. Display All Products
+2. Add Product
+3. Update Stock
+4. Search Product
+5. Remove Product
+6. Create Customer Order
+7. Save Inventory
+8. Exit
+--------------------------
+Enter option: 2
+
+Add New Product
+1. Physical Product (PXXX)
+2. Digital Product (DXXX)
+Select product type (1 or 2): 1
+Product ID Number (1-999): 5
+Assigned Product ID: P005
+Product Name: Webcam
+Price: 129.99
+Stock Quantity: 50
+
+Select Supplier:
+1. Global Tech Distribution (S001)
+2. Digital Soft Distributors (S002)
+3. Prime Hardware Supplies (S003)
+Select supplier (1-3): 1
+Weight (kg): 1.1
+
+Product added successfully!
+
+-------------MENU-------------
+1. Display All Products
+2. Add Product
+3. Update Stock
+4. Search Product
+5. Remove Product
+6. Create Customer Order
+7. Save Inventory
+8. Exit
+--------------------------
+Enter option: 1
+
+Current Inventory
+---------------------------------------------
+ID: P001 | Name: Laptop | Price: $1200.00 | Stock: 15 | Supplier: Global Tech Distribution | Weight: 2.5kg
+ID: P002 | Name: Mouse | Price: $25.50 | Stock: 50 | Supplier: Prime Hardware Supplies | Weight: 0.15kg
+ID: P003 | Name: Keyboard | Price: $45.00 | Stock: 25 | Supplier: Prime Hardware Supplies | Weight: 0.8kg
+ID: P004 | Name: Monitor | Price: $299.99 | Stock: 10 | Supplier: Global Tech Distribution | Weight: 4.2kg
+ID: D001 | Name: Operating System | Price: $199.99 | Stock: 100 | Supplier: Digital Soft Distributors | Download Size: 4500.0MB
+ID: D002 | Name: Antivirus | Price: $49.99 | Stock: 200 | Supplier: Digital Soft Distributors | Download Size: 350.0MB
+ID: P005 | Name: Webcam | Price: $129.99 | Stock: 50 | Supplier: Global Tech Distribution | Weight: 1.1kg
+---------------------------------------------
+
+-------------MENU-------------
+1. Display All Products
+2. Add Product
+3. Update Stock
+4. Search Product
+5. Remove Product
+6. Create Customer Order
+7. Save Inventory
+8. Exit
+--------------------------
+Enter option: 3
+
+Update Stock
+Enter Product ID: p005
+
+Product Found:
+Name: Webcam
+Current Stock: 50
+
+New Stock Quantity: 60
+
+Stock updated successfully!
+
+-------------MENU-------------
+1. Display All Products
+2. Add Product
+3. Update Stock
+4. Search Product
+5. Remove Product
+6. Create Customer Order
+7. Save Inventory
+8. Exit
+--------------------------
+Enter option: 1
+
+Current Inventory
+---------------------------------------------
+ID: P001 | Name: Laptop | Price: $1200.00 | Stock: 15 | Supplier: Global Tech Distribution | Weight: 2.5kg
+ID: P002 | Name: Mouse | Price: $25.50 | Stock: 50 | Supplier: Prime Hardware Supplies | Weight: 0.15kg
+ID: P003 | Name: Keyboard | Price: $45.00 | Stock: 25 | Supplier: Prime Hardware Supplies | Weight: 0.8kg
+ID: P004 | Name: Monitor | Price: $299.99 | Stock: 10 | Supplier: Global Tech Distribution | Weight: 4.2kg
+ID: D001 | Name: Operating System | Price: $199.99 | Stock: 100 | Supplier: Digital Soft Distributors | Download Size: 4500.0MB
+ID: D002 | Name: Antivirus | Price: $49.99 | Stock: 200 | Supplier: Digital Soft Distributors | Download Size: 350.0MB
+ID: P005 | Name: Webcam | Price: $129.99 | Stock: 60 | Supplier: Global Tech Distribution | Weight: 1.1kg
+---------------------------------------------
+
+-------------MENU-------------
+1. Display All Products
+2. Add Product
+3. Update Stock
+4. Search Product
+5. Remove Product
+6. Create Customer Order
+7. Save Inventory
+8. Exit
+--------------------------
+Enter option: 4
+
+Search Product
+Enter Product ID: p005
+
+Product Found
+---------------------------------------------
+ID: P005
+Name: Webcam
+Price: $129.99
+Stock: 60
+Supplier: Global Tech Distribution (supply@globaltech.com)
+Weight: 1.1kg
+Shipping Cost: $5.50
+Fulfilment: Requires physical shipping.
+---------------------------------------------
+
+-------------MENU-------------
+1. Display All Products
+2. Add Product
+3. Update Stock
+4. Search Product
+5. Remove Product
+6. Create Customer Order
+7. Save Inventory
+8. Exit
+--------------------------
+Enter option: 4
+
+Search Product
+Enter Product ID: d001
+
+Product Found
+---------------------------------------------
+ID: D001
+Name: Operating System
+Price: $199.99
+Stock: 100
+Supplier: Digital Soft Distributors (sales@digitalsoft.com)
+Download Size: 4500.0MB
+Fulfilment: Delivered digitally.
+---------------------------------------------
+
+-------------MENU-------------
+1. Display All Products
+2. Add Product
+3. Update Stock
+4. Search Product
+5. Remove Product
+6. Create Customer Order
+7. Save Inventory
+8. Exit
+--------------------------
+Enter option: 5
+
+Remove Product from Inventory
+Enter Product ID to remove: p005
+Product p005 removed from inventory successfully!
+
+-------------MENU-------------
+1. Display All Products
+2. Add Product
+3. Update Stock
+4. Search Product
+5. Remove Product
+6. Create Customer Order
+7. Save Inventory
+8. Exit
+--------------------------
+Enter option: 1
+
+Current Inventory
+---------------------------------------------
+ID: P001 | Name: Laptop | Price: $1200.00 | Stock: 15 | Supplier: Global Tech Distribution | Weight: 2.5kg
+ID: P002 | Name: Mouse | Price: $25.50 | Stock: 50 | Supplier: Prime Hardware Supplies | Weight: 0.15kg
+ID: P003 | Name: Keyboard | Price: $45.00 | Stock: 25 | Supplier: Prime Hardware Supplies | Weight: 0.8kg
+ID: P004 | Name: Monitor | Price: $299.99 | Stock: 10 | Supplier: Global Tech Distribution | Weight: 4.2kg
+ID: D001 | Name: Operating System | Price: $199.99 | Stock: 100 | Supplier: Digital Soft Distributors | Download Size: 4500.0MB
+ID: D002 | Name: Antivirus | Price: $49.99 | Stock: 200 | Supplier: Digital Soft Distributors | Download Size: 350.0MB
+---------------------------------------------
+
+-------------MENU-------------
+1. Display All Products
+2. Add Product
+3. Update Stock
+4. Search Product
+5. Remove Product
+6. Create Customer Order
+7. Save Inventory
+8. Exit
+--------------------------
+Enter option: 2
+
+Add New Product
+1. Physical Product (PXXX)
+2. Digital Product (DXXX)
+Select product type (1 or 2): 1
+Product ID Number (1-999): p005
+Error: Invalid number entered.
+
+-------------MENU-------------
+1. Display All Products
+2. Add Product
+3. Update Stock
+4. Search Product
+5. Remove Product
+6. Create Customer Order
+7. Save Inventory
+8. Exit
+--------------------------
+Enter option: 2
+
+Add New Product
+1. Physical Product (PXXX)
+2. Digital Product (DXXX)
+Select product type (1 or 2): 1
+Product ID Number (1-999): 5  
+Assigned Product ID: P005
+Product Name: Webcam
+Price: 129.99
+Stock Quantity: 60
+
+Select Supplier:
+1. Global Tech Distribution (S001)
+2. Digital Soft Distributors (S002)
+3. Prime Hardware Supplies (S003)
+Select supplier (1-3): 1
+Weight (kg): 1.1
+
+Product added successfully!
+
+-------------MENU-------------
+1. Display All Products
+2. Add Product
+3. Update Stock
+4. Search Product
+5. Remove Product
+6. Create Customer Order
+7. Save Inventory
+8. Exit
+--------------------------
+Enter option: 6
+
+Create Customer Order
+Enter Order ID (e.g. ORD101): 101
+Enter Product ID to add to order (or 'done' to finish): P005
+Enter quantity for Webcam (Available stock: 60): 70
+Error: Requested quantity (70) exceeds available stock (60).
+
+Enter Product ID to add to order (or 'done' to finish): P005
+Enter quantity for Webcam (Available stock: 60): 30
+Added 30x Webcam to order.
+
+Enter Product ID to add to order (or 'done' to finish): D001
+Enter quantity for Operating System (Available stock: 100): 40
+Added 40x Operating System to order.
+
+Enter Product ID to add to order (or 'done' to finish): done
+
+Order ID: 101
+---------------------------------------------
+  - Webcam (P005) x 30 @ $129.99 = $3899.70
+  - Operating System (D001) x 40 @ $199.99 = $7999.60
+Total Order Amount: $11899.30
+---------------------------------------------
+
+Order placed successfully! Stock levels have been deducted and saved to inventory.json.
+
+-------------MENU-------------
+1. Display All Products
+2. Add Product
+3. Update Stock
+4. Search Product
+5. Remove Product
+6. Create Customer Order
+7. Save Inventory
+8. Exit
+--------------------------
+Enter option: 1
+
+Current Inventory
+---------------------------------------------
+ID: P001 | Name: Laptop | Price: $1200.00 | Stock: 15 | Supplier: Global Tech Distribution | Weight: 2.5kg
+ID: P002 | Name: Mouse | Price: $25.50 | Stock: 50 | Supplier: Prime Hardware Supplies | Weight: 0.15kg
+ID: P003 | Name: Keyboard | Price: $45.00 | Stock: 25 | Supplier: Prime Hardware Supplies | Weight: 0.8kg
+ID: P004 | Name: Monitor | Price: $299.99 | Stock: 10 | Supplier: Global Tech Distribution | Weight: 4.2kg
+ID: D001 | Name: Operating System | Price: $199.99 | Stock: 60 | Supplier: Digital Soft Distributors | Download Size: 4500.0MB
+ID: D002 | Name: Antivirus | Price: $49.99 | Stock: 200 | Supplier: Digital Soft Distributors | Download Size: 350.0MB
+ID: P005 | Name: Webcam | Price: $129.99 | Stock: 30 | Supplier: Global Tech Distribution | Weight: 1.1kg
+---------------------------------------------
+
+-------------MENU-------------
+1. Display All Products
+2. Add Product
+3. Update Stock
+4. Search Product
+5. Remove Product
+6. Create Customer Order
+7. Save Inventory
+8. Exit
+--------------------------
+Enter option: 3
+
+Update Stock
+Enter Product ID: d001
+
+Product Found:
+Name: Operating System
+Current Stock: 60
+
+New Stock Quantity: 100
+
+Stock updated successfully!
+
+-------------MENU-------------
+1. Display All Products
+2. Add Product
+3. Update Stock
+4. Search Product
+5. Remove Product
+6. Create Customer Order
+7. Save Inventory
+8. Exit
+--------------------------
+Enter option: 1
+
+Current Inventory
+---------------------------------------------
+ID: P001 | Name: Laptop | Price: $1200.00 | Stock: 15 | Supplier: Global Tech Distribution | Weight: 2.5kg
+ID: P002 | Name: Mouse | Price: $25.50 | Stock: 50 | Supplier: Prime Hardware Supplies | Weight: 0.15kg
+ID: P003 | Name: Keyboard | Price: $45.00 | Stock: 25 | Supplier: Prime Hardware Supplies | Weight: 0.8kg
+ID: P004 | Name: Monitor | Price: $299.99 | Stock: 10 | Supplier: Global Tech Distribution | Weight: 4.2kg
+ID: D001 | Name: Operating System | Price: $199.99 | Stock: 100 | Supplier: Digital Soft Distributors | Download Size: 4500.0MB
+ID: D002 | Name: Antivirus | Price: $49.99 | Stock: 200 | Supplier: Digital Soft Distributors | Download Size: 350.0MB
+ID: P005 | Name: Webcam | Price: $129.99 | Stock: 30 | Supplier: Global Tech Distribution | Weight: 1.1kg
+---------------------------------------------
+
+-------------MENU-------------
+1. Display All Products
+2. Add Product
+3. Update Stock
+4. Search Product
+5. Remove Product
+6. Create Customer Order
+7. Save Inventory
+8. Exit
+--------------------------
+Enter option: 4
+
+Search Product
+Enter Product ID: p001
+
+Product Found
+---------------------------------------------
+ID: P001
+Name: Laptop
+Price: $1200.00
+Stock: 15
+Supplier: Global Tech Distribution (supply@globaltech.com)
+Weight: 2.5kg
+Shipping Cost: $12.50
+Fulfilment: Requires physical shipping.
+---------------------------------------------
+
+-------------MENU-------------
+1. Display All Products
+2. Add Product
+3. Update Stock
+4. Search Product
+5. Remove Product
+6. Create Customer Order
+7. Save Inventory
+8. Exit
+--------------------------
+Enter option: 4
+
+Search Product
+Enter Product ID: d001
+
+Product Found
+---------------------------------------------
+ID: D001
+Name: Operating System
+Price: $199.99
+Stock: 100
+Supplier: Digital Soft Distributors (sales@digitalsoft.com)
+Download Size: 4500.0MB
+Fulfilment: Delivered digitally.
+---------------------------------------------
+
+-------------MENU-------------
+1. Display All Products
+2. Add Product
+3. Update Stock
+4. Search Product
+5. Remove Product
+6. Create Customer Order
+7. Save Inventory
+8. Exit
+--------------------------
+Enter option: 7
+
+Saving Inventory...
+Inventory saved successfully to inventory.json
+
+1. Display All Products
+2. Add Product
+3. Update Stock
+4. Search Product
+5. Remove Product
+6. Create Customer Order
+7. Save Inventory
+8. Exit
+--------------------------
+Enter option: 8
+
+Inventory saved successfully.
+
+Thank you for using Inventory Management System.
+Program terminated.
+
+PS C:\Users\edwin\OneDrive\Desktop\School\Tri 1\INF\lab submission\lab8_submission>

@@ -1,7 +1,6 @@
 from abc import ABC, abstractmethod
 from Supplier import Supplier
 
-
 class Product(ABC):
     def __init__(self, product_id: str, name: str, price: float, stock: int, supplier: Supplier):
         self._product_id: str = product_id
@@ -52,10 +51,4 @@ class Product(ABC):
         pass
 
     def to_dict(self) -> dict:
-        return {
-            "id": self._product_id,
-            "name": self._name,
-            "price": self._price,
-            "stock": self._stock,
-            "supplier": self.supplier.to_dict()
-        }
+        return {"id": self._product_id,"name": self._name,"price": self._price,"stock": self._stock,"supplier": self.supplier.to_dict()}

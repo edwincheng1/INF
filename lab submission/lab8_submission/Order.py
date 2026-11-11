@@ -1,7 +1,6 @@
 from Product import Product
 from OrderLine import OrderLine
 
-
 class Order:
     def __init__(self, order_id: str):
         self.order_id: str = order_id

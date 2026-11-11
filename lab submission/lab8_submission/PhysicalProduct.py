@@ -2,7 +2,6 @@ from Product import Product
 from CanBeShipped import CanBeShipped
 from Supplier import Supplier
 
-
 class PhysicalProduct(Product, CanBeShipped):
     def __init__(self, product_id: str, name: str, price: float, stock: int, weight: float, supplier: Supplier):
         super().__init__(product_id, name, price, stock, supplier)
@@ -27,8 +26,5 @@ class PhysicalProduct(Product, CanBeShipped):
 
     def to_dict(self) -> dict:
         base = super().to_dict()
-        base.update({
-            "type": "physical",
-            "weight": self._weight
-        })
+        base.update({"type": "physical","weight": self._weight})
         return base

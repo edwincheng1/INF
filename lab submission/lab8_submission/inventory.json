@@ -1,0 +1,80 @@
+[
+    {
+        "type": "physical",
+        "id": "P001",
+        "name": "Laptop",
+        "price": 1200.0,
+        "stock": 15,
+        "weight": 2.5,
+        "supplier": {
+            "supplier_id": "S001",
+            "name": "Global Tech Distribution",
+            "contact_email": "supply@globaltech.com"
+        }
+    },
+    {
+        "type": "physical",
+        "id": "P002",
+        "name": "Mouse",
+        "price": 25.5,
+        "stock": 50,
+        "weight": 0.15,
+        "supplier": {
+            "supplier_id": "S003",
+            "name": "Prime Hardware Supplies",
+            "contact_email": "contact@primehardware.com"
+        }
+    },
+    {
+        "type": "physical",
+        "id": "P003",
+        "name": "Keyboard",
+        "price": 45.0,
+        "stock": 25,
+        "weight": 0.8,
+        "supplier": {
+            "supplier_id": "S003",
+            "name": "Prime Hardware Supplies",
+            "contact_email": "contact@primehardware.com"
+        }
+    },
+    {
+        "type": "physical",
+        "id": "P004",
+        "name": "Monitor",
+        "price": 299.99,
+        "stock": 10,
+        "weight": 4.2,
+        "supplier": {
+            "supplier_id": "S001",
+            "name": "Global Tech Distribution",
+            "contact_email": "supply@globaltech.com"
+        }
+    },
+    {
+        "type": "digital",
+        "id": "D001",
+        "name": "Operating System",
+        "price": 199.99,
+        "stock": 100,
+        "download_size": 4500.0,
+        "supplier": {
+            "supplier_id": "S002",
+            "name": "Digital Soft Distributors",
+            "contact_email": "sales@digitalsoft.com"
+        }
+    },
+    {
+        "type": "digital",
+        "id": "D002",
+        "name": "Antivirus",
+        "price": 49.99,
+        "stock": 200,
+        "download_size": 350.0,
+        "supplier": {
+            "supplier_id": "S002",
+            "name": "Digital Soft Distributors",
+            "contact_email": "sales@digitalsoft.com"
+        }
+    }
+]

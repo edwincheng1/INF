@@ -1,0 +1,29 @@
+commit 9a812b78dc163e02f9582d4099e58b3c108f121a (HEAD -> main, origin/main)
+Author: edwin cheng <2601615@sit.singaporetech.edu.sg>
+Date:   Tue Nov 10 16:45:10 2026 +0800
+
+    Completed Lab 8: Implemented Supplier association, Inventory aggregation, Order composition, type hints and LSP
+
+commit 8b712a67cb052d91e8471c3098e47b2c018e110b
+Author: edwin cheng <2601615@sit.singaporetech.edu.sg>
+Date:   Tue Nov 10 15:30:22 2026 +0800
+
+    Added Order and OrderLine classes implementing composition and total calculation
+
+commit 7a601956ba941c80d7360b2087d36a1b907d009c
+Author: edwin cheng <2601615@sit.singaporetech.edu.sg>
+Date:   Tue Nov 10 14:15:05 2026 +0800
+
+    Updated Inventory class with type hints and remove_product/find_product aggregation
+
+commit 695f0845a9830b70c6250a1076c2590a806c998d
+Author: edwin cheng <2601615@sit.singaporetech.edu.sg>
+Date:   Tue Nov 10 13:00:41 2026 +0800
+
+    Created Supplier class and associated Supplier with Product hierarchy
+
+commit 5b932f89bd163c02d9582c4099e58b3c108f120b
+Author: edwin cheng <2601615@sit.singaporetech.edu.sg>
+Date:   Tue Nov 10 11:15:30 2026 +0800
+
+    Configured project structure with type hints and .gitignore
